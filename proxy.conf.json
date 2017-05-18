@@ -1,0 +1,12 @@
+{
+    "/oauth2/token/*": {
+        "target": "https://api.yelp.com",
+        "secure": false,
+        "changeOrigin": true
+    },
+    "/v3/businesses/*": {
+        "target": "https://api.yelp.com",
+        "secure": false,
+        "changeOrigin": true
+    }
+}

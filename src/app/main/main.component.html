@@ -1,0 +1,6 @@
+<ngb-alert [dismissible]="false" *ngIf="isFetched">
+  <div class="div-main">
+    {{store.name}} is <span *ngIf="store.is_closed">closed</span>
+    <span *ngIf="!store.is_closed">open</span>
+  </div>
+</ngb-alert>
